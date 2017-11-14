@@ -1,0 +1,12 @@
+annotators = segment, ssplit, pos
+
+customAnnotatorClass.segment = edu.stanford.nlp.pipeline.ChineseSegmenterAnnotator
+
+segment.model = edu/stanford/nlp/models/segmenter/chinese/ctb.gz
+segment.sighanCorporaDict = edu/stanford/nlp/models/segmenter/chinese
+segment.serDictionary = edu/stanford/nlp/models/segmenter/chinese/dict-chris6.ser.gz
+segment.sighanPostProcessing = true
+
+ssplit.boundaryTokenRegex = [.]|[!?]+|[。]|[！？]+
+
+pos.model = edu/stanford/nlp/models/pos-tagger/chinese-distsim/chinese-distsim.tagger

@@ -1,0 +1,5 @@
+annotators = tokenize, ssplit, pos
+
+tokenize.language = es
+
+pos.model = edu/stanford/nlp/models/pos-tagger/spanish/spanish-distsim.tagger
