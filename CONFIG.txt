@@ -1,0 +1,7 @@
+WORD_EMBEDDING_DIR=/home/andrew/DEFT_code_testing/dependencies/wordVectors
+CORENLP_DIR=/home/andrew/NLP_tools/CoreNLP/stanford-corenlp-full-2016-10-31
+MALTPARSER_DIR=/home/andrew/NLP_tools/MaltParser/maltparser-1.9.0
+NER_DIR=/home/andrew/NLP_tools/StanfordNER/stanford-ner-2016-10-31
+MODEL_DIR=/home/andrew/DEFT_code_testing/dependencies/models
+LIBLINEAR_DIR=/home/andrew/ML_tools/LIBLINEAR/liblinear-1.94
+POS_DIR=/home/andrew/DEFT_code_testing/dependencies/pos
